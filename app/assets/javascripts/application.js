@@ -16,6 +16,3 @@
 //= require_tree .
 
 // FLASH NOTICE ANIMATION
-$('#notice').html("<%= escape_javascript raw(flash_notice) %>");
-<% flash.discard %>
-$("[id^=flash_]").show().delay(2000).fadeOut(1000);
