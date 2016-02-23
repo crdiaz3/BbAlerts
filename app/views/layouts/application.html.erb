@@ -49,13 +49,12 @@
 				</div>
 			<% end %>
 		</div>
-    <div>
-      <% flash.each do |name, msg| %>
-  			<%= content_tag(:div, msg, class: "alert") %>
-  		<% end %>
+    
+    <% if flash[:notice] -%>
+      <div class = "alert alert-success"><%= flash[:notice] %></div>
+    <% end %>
 
   		<%= yield %>
-    </div>
 	</div>
 </body>
 </html>
