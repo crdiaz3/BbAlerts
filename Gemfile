@@ -36,13 +36,18 @@ gem 'devise', '~> 3.4.0'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-  gem 'debugger'
+  gem 'sqlite3'
+  gem 'spring'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'pg'
+  gem 'rails_12factor'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+end
+
+group :doc do
+	gem 'sdoc', '~> 0.4.0'
 end
