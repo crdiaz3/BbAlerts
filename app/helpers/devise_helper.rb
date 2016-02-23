@@ -1,4 +1,4 @@
-def devise_error_messages! 
+def devise_error_messages!
     html = ""
 
     return html if resource.errors.empty?
