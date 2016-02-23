@@ -49,11 +49,14 @@
 				</div>
 			<% end %>
 		</div>
+    <% if flash[:warning] or flash[:notice] %>
+      class="warning"<% end %>>
+        <%= flash[:warning] || flash[:notice] %>
 
-		<% flash.each do |name, msg| %>
-			<%= content_tag(:div, msg, class: "alert") %>
-		<% end %>
+        setTimeout("new Effect.Fade('notice');", 15000)
 
+    <% end %>
+    
 		<%= yield %>
 	</div>
 </body>
