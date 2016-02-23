@@ -49,10 +49,10 @@
 				</div>
 			<% end %>
 		</div>
-    
-    <% if flash[:notice] -%>
-      <div class = "alert alert-success"><%= flash[:notice] %></div>
-    <% end %>
+
+    #flash-message
+      - flash.each do |name, msg|
+        = content_tag :div, msg, :id => "flash_#{name}"
 
   		<%= yield %>
 	</div>
