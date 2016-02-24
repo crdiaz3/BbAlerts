@@ -3,16 +3,13 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  before_filter :block_foreign_hosts
-
-  def whitelisted?(ip)
-    return true if [192.168.0.1].include?(ip)
-    false
-  end
-
-  def block_foreign_hosts
-    return false if whitelisted?(request.remote_ip)
-    redirect_to "https://www.google.com" unless request.remote_ip.start_with?("192.168.0")
+  WHITELIST = ['192.168.0.1'].freeze
+  def authorize_by_ip
+    unless( WHITELIST.include? request.env['REMOTE_ADDR'] )
+      render :file => "#{Rails.public_path}/401.html", :status
+      => :unauthorized
+      return
+    end
   end
 
 end
