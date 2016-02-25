@@ -7,11 +7,9 @@ class ApplicationController < ActionController::Base
 
   def protect
     @ips = ['192.168.0.1','192.168.0.3'] #And so on ...]
-    if not @ips.include? request.remote_ip
-       # Check for your subnet stuff here, for example
-       # if not request.remote_ip.include?('127.0,0')
-       render :text => "You are unauthorized"
-       return
+    if request.remote_ip !~ /^XXX\.YYY\.ZZZ\./
+      redirect_to no_access_url
+      return false
     end
   end
 end
