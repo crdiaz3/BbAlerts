@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   before_filter :block_ip
 
   def block_ip
-    if request.remote_ip.match('192.168.0.*')
+    if request.remote_ip.match('127.0.0.*')
       redirect_to "http://YourCanonicalDomain.tld/503.html"
       return
     end
