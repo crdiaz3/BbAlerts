@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
-  WHITELIST = ["97.124.120.200"]
+  WHITELIST = ["97.124.120.200", "209.147.144.29"]
   before_filter :check_whitelist
 
   def index
