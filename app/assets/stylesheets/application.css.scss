@@ -29,7 +29,7 @@ a {
 }
 
 #sidebar {
-	width: 250px;
+	width: 200px;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -103,7 +103,8 @@ a {
 }
 
 #main_content {
-	margin-left: 250px;
+	margin-left: 200px;
+	width: 100%;
 	#header {
 		padding: 1em 3em;
 		border-bottom: 1px solid #d6dce0;
