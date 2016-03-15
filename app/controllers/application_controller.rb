@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   before_filter :protect
 
   def protect
-    @ips = ['97.124.120.200', '97.124.120.0/24', '70.209.79.95'] #And so on ...]
+    @ips = ['209.147.144.0/24'] #And so on ...]
     allowed = false
     # Convert remote IP to an integer.
     bremote_ip = request.remote_ip.split('.').map(&:to_i).pack('C*').unpack('N').first
