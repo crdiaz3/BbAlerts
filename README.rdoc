@@ -1,10 +1,19 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Temporary Public URL: http://dry-fortress-86389.herokuapp.com/
 
-Things you may want to cover:
+Collaborator Setup Instructions:
+1. Create a Heroku account: https://signup.heroku.com/
+2. Install the Heroku Toolbelt: https://toolbelt.herokuapp.com/
+3. Clone the Repo locally via command line: 
+    heroku git:clone -a dry-fortress-86389
+4. Make necessary updates/changes to source using standarg git commands
+    git add ...
+    git commit -m "make it better"
+    Deploying changes:
+    git push heroku master
 
+Configuration Details (WIP):
 * Ruby version
 
 * System dependencies
@@ -16,13 +25,3 @@ Things you may want to cover:
 * Database initialization
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
