@@ -2,6 +2,18 @@
 
 Temporary Public URL: http://dry-fortress-86389.herokuapp.com/
 
+Collaborator Setup Instructions:
+1. Create a Heroku account: https://signup.heroku.com/
+2. Install the Heroku Toolbelt:https://toolbelt.herokuapp.com/
+3. Clone the Repo locally via command line: 
+* heroku git:clone -a dry-fortress-86389
+4. Make necessary updates/changes to source using standarg git commands
+
+git add ...
+git commit -m "make it better"
+Deploying changes:
+git push heroku master
+
 * Ruby version
 
 * System dependencies
