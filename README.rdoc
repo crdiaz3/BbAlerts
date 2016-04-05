@@ -13,6 +13,7 @@ Collaborator Setup Instructions:
     Deploying changes:
     git push heroku master
 
+Configuration Details (WIP):
 * Ruby version
 
 * System dependencies
@@ -24,7 +25,3 @@ Collaborator Setup Instructions:
 * Database initialization
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
