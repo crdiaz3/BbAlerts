@@ -8,11 +8,10 @@ Collaborator Setup Instructions:
 3. Clone the Repo locally via command line: 
     heroku git:clone -a dry-fortress-86389
 4. Make necessary updates/changes to source using standarg git commands
-
-git add ...
-git commit -m "make it better"
-Deploying changes:
-git push heroku master
+    git add ...
+    git commit -m "make it better"
+    Deploying changes:
+    git push heroku master
 
 * Ruby version
 
