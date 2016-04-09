@@ -5,9 +5,11 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag 'application', 'https://fonts.google.com/css?family=Railway:400,700' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'app/assets/stylesheets' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<% if false %>
 	<div id="sidebar">
 		<div id="logo" style="width:20%;">
 			<%= link_to root_path do %>
@@ -31,8 +33,13 @@
 			<p class="sign_in"><%= link_to "Admin Login", new_user_session_path %></p>
 		<% end %>
 	</div>
+	<% end %>
 
+
+	<% if false %>
 	<div id="main_content">
+
+		<% if false %> 
 		<div id="header">
 			<% if current_page?(root_path) %>
 				<p>All Posts</p>
@@ -49,6 +56,10 @@
 				</div>
 			<% end %>
 		</div>
+		<% end %> 
+
+
+
 
 		<% flash.each do |name, msg| %>
 			<%= content_tag(:p, msg, class: "alert") %>
@@ -56,5 +67,7 @@
 
 		<%= yield %>
 	</div>
+	<% end %>
+
 </body>
 </html>
