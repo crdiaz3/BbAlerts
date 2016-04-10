@@ -14,7 +14,9 @@
 	<div id = "wrapper">
 		<header>
 			<!--<a href="app/views/application.html.erb">-->
-				<%= image_tag("app/assets/images/logo_2.png"), alt:"Real Smart Logo", size: "128x96" %>
+      <%= link_to root_path do %>
+        <%= image_tag "logo_2.png" %>
+      <% end %>
 			<!--</a>-->
 			<h1>Real Smart</h1>
 			<h2>Real Estate Finder</h2>
@@ -22,7 +24,7 @@
 				<a href="#login">Log In</a>
 			</div>
 		</header>
-			
+
 		<main>
 			<div id = "pageIntro">
 				<h2>Find your place to live in, to work at, for your children, & to have a good time</h2>
@@ -40,7 +42,7 @@
 				<li><a href="#FAQs">FAQs</a></li>
 				<li><a href="feedback">Feedback</a></li>
 			</ul>
-		</footer>	
+		</footer>
 
 	</div>
 </body>
