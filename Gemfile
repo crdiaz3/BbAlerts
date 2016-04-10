@@ -22,6 +22,8 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 
+gem 'bcrypt'
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # Use ActiveModel has_secure_password
