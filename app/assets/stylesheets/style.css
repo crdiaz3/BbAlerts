@@ -1,0 +1,47 @@
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #767777;
+  font-weight: 500;
+}
+.slogan {
+  font-size: 60px;
+  padding-top: 160px;
+}
+.sub-slogan {
+  font-size: 21px;
+  padding-top: 24px;
+}
+.mdl-layout__content {
+  background-color: #f3f3f3;
+}
+.white-section {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  position: relative;
+  background: white;
+  background-size: cover;
+}
+.expand-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+.expand-fab {
+    display: none;
+  }
+.main-section {
+  height:100vh;
+}
+.dark-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: #37474f;
+}
