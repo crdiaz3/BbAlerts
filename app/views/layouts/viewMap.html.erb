@@ -7,7 +7,9 @@
   	<%= stylesheet_link_tag 'application', 'https://fonts.google.com/css?family=Railway:400,700' %>
   	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   	<%= stylesheet_link_tag 'app/assets/stylesheets/researchStyle.css' %>
-	<%= favicon_link_tag 'favicon.ico' %>
+  	<%= link_to root_path do %>
+  		<%= favicon_link_tag 'app/assets/images/favicon.ico' %>
+  	<% end %>
   	<%= csrf_meta_tags %>
 </head>
 <body>
@@ -15,7 +17,7 @@
 		<header>
 			<!--<a href="app/views/application.html.erb">-->
 		    	<%= link_to root_path do %>
-		        	<%= image_tag "logo_3.png" %>
+		        	<%= image_tag "logo_2.png" %>
 		      	<% end %>
 			<!--</a>-->
 			<h1>Real Smart</h1>
@@ -26,13 +28,7 @@
 		</header>
 
 		<main>
-			<div id = "pageIntro">
-				<h2>Find your place to live in, to work at, for your children, & to have a good time</h2>
-			</div>
 
-			<div id = "search">
-				<%= link_to "Search", '/viewMap', :method => :get %>
-			</div>
 		</main>
 
 		<footer>
@@ -40,7 +36,7 @@
 				<li><a href="#aboutUs">About Us</a></li>
 				<li><a href="#help">Help</a></li>
 				<li><a href="#FAQs">FAQs</a></li>
-				<li><a href="#feedback">Feedback</a></li>
+				<li><a href="feedback">Feedback</a></li>
 			</ul>
 		</footer>
 
