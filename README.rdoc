@@ -1,8 +1,8 @@
-== README
+= README
 
 Temporary Public URL: http://dry-fortress-86389.herokuapp.com/
 
-Collaborator Setup Instructions:
+==Collaborator Setup Instructions:
 1. Clone the Repo locally via command line:
     git clone https://github.com/crdiaz3/Real-Smart.git
 2. Make necessary updates/changes to source using standarg git commands
@@ -11,13 +11,13 @@ Collaborator Setup Instructions:
 3. Deploying changes:
     Any pushes to the master branch will automatically be deployed
 
-Development Environment:
+==Development Environment:
 * Need to install sqlite3
-* run the following terminal command within repo
+* run the following terminal command within local repo directory
     rails s
 * In your browser, go to http://localhost:3000/
 
-Configuration Details (WIP):
+==Configuration Details (WIP):
 * Ruby version: 2.2.4
 
 * System dependencies
