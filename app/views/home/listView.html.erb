@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<title>View Map Real Smart</title>
+  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  	<%= stylesheet_link_tag 'application', 'https://fonts.google.com/css?family=Railway:400,700' %>
+  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  	<%= stylesheet_link_tag 'app/assets/stylesheets/researchStyle.css' %>
+  	<%= favicon_link_tag 'favicon.ico' %>
+  	<%= csrf_meta_tags %>
+</head>
+	<body>
+		<div id = "wrapper">
+			<header>
+				<%= link_to root_path do %>
+	    			<%= image_tag 'logo_3.png', alt: 'Real Smart logo'%>
+				<% end %>
+
+				<h1>Real Smart</h1>
+				<h2>Real Estate Finder</h2>
+				<div id="login">
+					<a href="#login">Log In</a>
+				</div>
+			</header>
+			
+			<main>
+				<div id ="switch">
+					<%= link_to("Switch to Map View",
+					{:controller => 'home',
+						:action => 'viewMap'}) %>
+				</div>
+				<h2>Results</h2>
+				<div id="homeContainer">
+					<ul id="homeList">
+						<li class="homeForSale">
+						<!--<a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html"></a>-->
+							<%= image_tag 'home1_small.jpg', alt: 'Home for sale', height: '160', width: '224'%>
+							<!--<a href="#">-->
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<%= link_to("See more",
+									{:controller => 'home',
+									:action => 'viewHome'}) %>
+							<!--</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>
+						</li>
+						<li class="homeForSale"><a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\viewHome.html">
+							<img src="home1_small.jpg" alt="Home for sale" height="160" width="224"></a>
+							<a href="#">
+								<h3>123 E High St.</h3>
+								<h3>$675,000</h3>
+								<p>See more</p>
+							</a>-->
+						</li>						
+					</ul>
+				</div>
+			</main>
+			
+		<footer>
+			<ul>
+				<li>
+					<%= link_to("About Us",
+					{:controller => 'home',
+						:action => 'aboutUs'}) %>
+				</li>
+				<li>
+					<%= link_to("Help",
+					{:controller => 'home',
+						:action => 'help'}) %>
+				</li>
+				<li>
+					<%= link_to("FAQs",
+					{:controller => 'home',
+						:action => 'FAQ'}) %>
+				</li>
+				<li>
+					<%= link_to("Feedback",
+					{:controller => 'home',
+						:action => 'feedback'}) %>
+				</li>
+			</ul>
+		</footer>
+
+		</div>
+	</body>
+</html>
