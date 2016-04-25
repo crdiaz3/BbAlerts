@@ -10,50 +10,50 @@
 	<%= favicon_link_tag 'favicon.ico' %>
   	<%= csrf_meta_tags %>
 </head>
-<body>
-	<div id = "wrapper">
-		<header>
-			<%= link_to root_path do %>
-    			<%= image_tag 'logo_3.png', alt: 'Real Smart logo'%>
-			<% end %>
+	<body>
+		<div id = "wrapper">
+			<header>
+				<%= link_to root_path do %>
+	    			<%= image_tag 'logo_3.png', alt: 'Real Smart logo'%>
+				<% end %>
 
-			<h1>Real Smart</h1>
-			<h2>Real Estate Finder</h2>
-			<div id="login">
-				<a href="#login">Log In</a>
-			</div>
-		</header>
+				<h1>Real Smart</h1>
+				<h2>Real Estate Finder</h2>
+				<div id="login">
+					<a href="#login">Log In</a>
+				</div>
+			</header>
 
-		<main>
-			<h1>View Home</h1>
+			<main>
+				<h1>View Home</h1>
 
-		</main>
+			</main>
 
-		<footer>
-			<ul>
-				<li>
-					<%= link_to("About Us",
-					{:controller => 'home',
-						:action => 'aboutUs'}) %>
-				</li>
-				<li>
-					<%= link_to("Help",
-					{:controller => 'home',
-						:action => 'help'}) %>
-				</li>
-				<li>
-					<%= link_to("FAQs",
-					{:controller => 'home',
-						:action => 'FAQ'}) %>
-				</li>
-				<li>
-					<%= link_to("Feedback",
-					{:controller => 'home',
-						:action => 'feedback'}) %>
-				</li>
-			</ul>
-		</footer>
+			<footer>
+				<ul>
+					<li>
+						<%= link_to("About Us",
+						{:controller => 'home',
+							:action => 'aboutUs'}) %>
+					</li>
+					<li>
+						<%= link_to("Help",
+						{:controller => 'home',
+							:action => 'help'}) %>
+					</li>
+					<li>
+						<%= link_to("FAQs",
+						{:controller => 'home',
+							:action => 'FAQ'}) %>
+					</li>
+					<li>
+						<%= link_to("Feedback",
+						{:controller => 'home',
+							:action => 'feedback'}) %>
+					</li>
+				</ul>
+			</footer>
 
-	</div>
-</body>
+		</div>
+	</body>
 </html>
