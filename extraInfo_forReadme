@@ -1,0 +1,9 @@
+extra readme info
+
+==for under environment section or how to solve problems running rails s
+* Need to install [Rails](http://installrails.com/)
+	* If path was not configured correctly, run the following in command prompt with ruby
+		gem install rails
+* May need to update/install gem files. Run the following in command prompt with ruby
+	gem update
+	gem install missingGem
