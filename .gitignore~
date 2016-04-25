@@ -28,6 +28,3 @@
 /classes/
 bin
 build
-
-#Ignore rest inspection files 'webeclipse'
-.restinspect/
