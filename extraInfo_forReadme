@@ -7,3 +7,32 @@ extra readme info
 * May need to update/install gem files. Run the following in command prompt with ruby
 	gem update
 	gem install missingGem
+
+
+To run rails server (site)
+in Real-Smart directory, with cmd with rails, run:
+	cd ..
+this is to get one folder out
+then run in prompt with rails:
+	rails new Real-Smart
+this is so files don't get changed and computer can create rails files
+answer no to each overwrite to keep folder intact
+	n
+After answering n to all overwrite requests and is complete.
+get into folder:
+	cd Real-Smart
+run server command:
+	rails server
+
+open in chrome
+	http://localhost:3000/
+
+
+since was made before (guessing changed), will see an error page.....
+run command:
+	rake
+	rake db:migrate RAILS_ENV=development
+didn't track if rake fixed it and/or the second command fixed it
+refresh the page and you will see the site. (if already made, you will see what was in there else the rails site)
+
+
