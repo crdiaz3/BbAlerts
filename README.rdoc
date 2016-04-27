@@ -8,7 +8,6 @@ Temporary Public URL: http://dry-fortress-86389.herokuapp.com/
 2. Install dependencies
     bundle install
 3. Create db and migrate schema
-    rake db:create
     rake db:migrate
 4. Make necessary updates/changes to source using standarg git commands
     git add ...
@@ -17,7 +16,8 @@ Temporary Public URL: http://dry-fortress-86389.herokuapp.com/
     Any pushes to the master branch will automatically be deployed
 
 ==Development Environment:
-* Need to install [sqlite3](https://www.sqlite.org/download.html)
+* Install dependencies
+    bundle install
 * Run the following terminal command within local repo directory
     rails s
 * In your browser, go to http://localhost:3000/
