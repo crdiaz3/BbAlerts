@@ -26,5 +26,4 @@
 .DS_Store
 *.class
 /classes/
-bin
 build
