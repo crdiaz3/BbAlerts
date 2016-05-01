@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RealSmart</title>
+  <link rel="stylesheet" media="all" href="/assets/_normalize.self-8ae0fa631279f4495923d84128bf12fab7adea59c69c7d9c8a3066b546f991c5.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/researchStyle.self-289628bbd1eed33991d58802f703805e9699cab3bce14d65cb267763d92de8c1.css?body=1" data-turbolinks-track="true" />
+  <script src="/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks.self-3ad9a189e282f93d4e08b6b4af94c9dd70e5aaa8557b7704050a875ed67faf50.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/hamburgler.self-b4f0ca5e269ed7fd06d88500c1596aad7eab716c36f5852bad4c673df941edf4.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/application.self-39d86c82892eff9228d8d636859fbe782c78f176c27517e63894bcef95280d1e.js?body=1" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="SVtE8L9nRRReb0udT0qCZr0EPR5mXqtunOahFLbvbd9SguaQ4Y9qou/wBrcmOqCvAJkk5ZQcljZgqESvJG3M5A==" />
+</head>
+<body>
+
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<title>Real Smart Home</title>
+  	<link rel="stylesheet" media="all" href="/assets/_normalize.self-8ae0fa631279f4495923d84128bf12fab7adea59c69c7d9c8a3066b546f991c5.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/researchStyle.self-289628bbd1eed33991d58802f703805e9699cab3bce14d65cb267763d92de8c1.css?body=1" data-turbolinks-track="true" />
+  	<link rel="stylesheet" media="screen" href="/assets/_normalize.self-8ae0fa631279f4495923d84128bf12fab7adea59c69c7d9c8a3066b546f991c5.css?body=1" />
+<link rel="stylesheet" media="screen" href="/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" />
+<link rel="stylesheet" media="screen" href="/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" />
+<link rel="stylesheet" media="screen" href="/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" />
+<link rel="stylesheet" media="screen" href="/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" />
+<link rel="stylesheet" media="screen" href="/assets/researchStyle.self-289628bbd1eed33991d58802f703805e9699cab3bce14d65cb267763d92de8c1.css?body=1" />
+<link rel="stylesheet" media="screen" href="https://fonts.google.com/css?family=Railway:400,700" />
+  	<script src="/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks.self-3ad9a189e282f93d4e08b6b4af94c9dd70e5aaa8557b7704050a875ed67faf50.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/hamburgler.self-b4f0ca5e269ed7fd06d88500c1596aad7eab716c36f5852bad4c673df941edf4.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/application.self-39d86c82892eff9228d8d636859fbe782c78f176c27517e63894bcef95280d1e.js?body=1" data-turbolinks-track="true"></script>
+  	<link rel="stylesheet" media="screen" href="/stylesheets/app/assets/stylesheets/researchStyle.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-c54f0990d2eca713829cd5a5056928c7418a71aa7913aaeae49a6d0299e2061d.ico" />
+  	<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="2aM9WH8vHnETnbhmRue2VU95TD2MpIajI+cgdOz9qlLCep84Iccxx6IC9Uwvl5Sc8uRVxn7mu/vfqcXPfn8LaQ==" />
+</head>
+	<body>
+		<div id = "wrapper">
+			<header>
+				<a href="/">
+	    			<img alt="Real Smart logo" src="/assets/logo_3-b4240df3fadf40e5bf08400c726cc7f2c937ff0edce572834ebfcd0f309d7f7b.png" />
+</a>
+				<h1>Real Smart</h1>
+				<h2>Real Estate Finder</h2>
+				<div id="login">
+					<a href="#login">Log In</a>
+				</div>
+			</header>
+
+			<main>
+				<div id = "pageIntro">
+					<h2>Find your place to live in, to work at, for your children, & to have a good time</h2>
+				</div>
+
+				<div id = "search">
+					<a href="/viewMap">Search</a>
+				</div>
+			</main>
+
+			<footer>
+				<ul>
+					<li>
+						<a href="/aboutUs">About Us</a>
+					</li>
+					<li>
+						<a href="/help">Help</a>
+					</li>
+					<li>
+						<a href="/FAQ">FAQs</a>
+					</li>
+					<li>
+						<a href="/feedback">Feedback</a>
+					</li>
+				</ul>
+			</footer>
+
+		</div>
+</body>
+</html>
+
+</body>
+</html>

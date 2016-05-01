@@ -1,49 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<meta charset="utf-8">
-	<title>Real Smart Home</title>
-  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  	<%= stylesheet_link_tag 'application', 'https://fonts.google.com/css?family=Railway:400,700' %>
-  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  	<%= stylesheet_link_tag 'app/assets/stylesheets/researchStyle.css' %>
-  	<%= favicon_link_tag 'app/assets/images/favicon.ico' %>
-  	<%= csrf_meta_tags %>
+  <title>RealSmart</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
 </head>
 <body>
-	<div id = "wrapper">
-		<header>
-			<!--<a href="app/views/application.html.erb">-->
-      <%= link_to root_path do %>
-        <%= image_tag "logo_2.png" %>
-      <% end %>
-			<!--</a>-->
-			<h1>Real Smart</h1>
-			<h2>Real Estate Finder</h2>
-			<div id="login">
-				<a href="#login">Log In</a>
-			</div>
-		</header>
 
-		<main>
-			<div id = "pageIntro">
-				<h2>Find your place to live in, to work at, for your children, & to have a good time</h2>
-			</div>
-			<div id = "search">
-				<p>Search options here</p>
-				<!--<a href="C:\Users\julie\Dropbox\School\Research Project\Web site design\Website\mapView.html">Search</a>-->
-			</div>
-		</main>
+<%= yield %>
 
-		<footer>
-			<ul>
-				<li><a href="#aboutUs">About Us</a></li>
-				<li><a href="#help">Help</a></li>
-				<li><a href="#FAQs">FAQs</a></li>
-				<li><a href="feedback">Feedback</a></li>
-			</ul>
-		</footer>
-
-	</div>
 </body>
 </html>

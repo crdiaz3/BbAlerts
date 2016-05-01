@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<title>View Map Real Smart</title>
+  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  	<%= stylesheet_link_tag 'application', 'https://fonts.google.com/css?family=Railway:400,700' %>
+  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  	<%= javascript_include_tag 'http://code.jquery.com/jquery-2.1.3.js'=> true %>
+  	<%= javascript_include_tag 'hamburgler.js' => true %>
+  	<%= stylesheet_link_tag 'app/assets/stylesheets/researchStyle.css' %>
+  	<%= favicon_link_tag 'favicon.ico' %>
+  	<%= csrf_meta_tags %>
+</head>
+	<body>
+		<div id = "wrapper">
+			<header>
+				<%= link_to root_path do %>
+	    			<%= image_tag 'logo_3.png', alt: 'Real Smart logo'%>
+				<% end %>
+
+				<h1>Real Smart</h1>
+				<h2>Real Estate Finder</h2>
+				<div id="login">
+					<a href="#login">Log In</a>
+				</div>
+			</header>
+
+			<main>
+				<div id ="switch">
+					<%= link_to("Switch to List View",
+					{:controller => 'home',
+						:action => 'listView'}) %>
+				</div>
+				
+				<h2>Results</h2>
+				<div id ="map">
+					<div class="mobilenav">
+						<h3>See Nearby</h3>
+						<ul>
+						  <li><a href="#">Schools</a>
+							<ul>
+							  <li style="margin-left: 15px;"><a href="#">Elementary</a></li>
+							  <li style="margin-left: 15px;"><a href="#">Jr. High</a></li>
+							  <li style="margin-left: 15px;"><a href="#">High School</a></li>
+							  </li>
+							</ul>
+							<li><a href="#">Day Cares</a></li>
+							<li><a href="#">Stadiums</a></li>
+							<li><a href="#">Worship Centers</a></li>
+						</ul>
+						<div id="reset">
+							<ul>
+								<li><a href="#">Search again</a></li>
+								<li><a href="#">Reset all filters</a></li>
+							</ul>
+						</div>
+					</div>	
+
+					<%= link_to("javascript:void(0)", :class => "icon") do %>
+						<div class="hamburger">
+						<div class="menui top-menu"></div>
+						<div class="menui mid-menu"></div>
+						<div class="menui bottom-menu"></div>
+						</div>
+					<% end %>
+
+					<%= image_tag 'map2.jpg', alt:'map', width:'836', height:'519' %>
+				</div>
+			</main>
+
+			<footer>
+				<ul>
+					<li>
+						<%= link_to("About Us",
+						{:controller => 'home',
+							:action => 'aboutUs'}) %>
+					</li>
+					<li>
+						<%= link_to("Help",
+						{:controller => 'home',
+							:action => 'help'}) %>
+					</li>
+					<li>
+						<%= link_to("FAQs",
+						{:controller => 'home',
+							:action => 'FAQ'}) %>
+					</li>
+					<li>
+						<%= link_to("Feedback",
+						{:controller => 'home',
+							:action => 'feedback'}) %>
+					</li>
+				</ul>
+			</footer>
+
+		</div>
+	</body>
+</html>

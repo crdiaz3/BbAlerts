@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<title>Real Smart Home</title>
+  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  	<%= stylesheet_link_tag 'application', 'https://fonts.google.com/css?family=Railway:400,700' %>
+  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  	<%= stylesheet_link_tag 'app/assets/stylesheets/researchStyle.css' %>
+	<%= favicon_link_tag 'favicon.ico' %>
+  	<%= csrf_meta_tags %>
+</head>
+	<body>
+		<div id = "wrapper">
+			<header>
+				<%= link_to root_path do %>
+	    			<%= image_tag 'logo_3.png', alt: 'Real Smart logo'%>
+				<% end %>
+
+				<h1>Real Smart</h1>
+				<h2>Real Estate Finder</h2>
+				<div id="login">
+					<a href="#login">Log In</a>
+				</div>
+			</header>
+
+			<main>
+				<div id = "pageIntro">
+					<h2>Find your place to live in, to work at, for your children, & to have a good time</h2>
+				</div>
+
+				<div id = "search">
+					<%= link_to("Search",
+					{:controller => 'home',
+						:action => 'viewMap'}) %>
+				</div>
+			</main>
+
+			<footer>
+				<ul>
+					<li>
+						<%= link_to("About Us",
+						{:controller => 'home',
+							:action => 'aboutUs'}) %>
+					</li>
+					<li>
+						<%= link_to("Help",
+						{:controller => 'home',
+							:action => 'help'}) %>
+					</li>
+					<li>
+						<%= link_to("FAQs",
+						{:controller => 'home',
+							:action => 'FAQ'}) %>
+					</li>
+					<li>
+						<%= link_to("Feedback",
+						{:controller => 'home',
+							:action => 'feedback'}) %>
+					</li>
+				</ul>
+			</footer>
+
+		</div>
+</body>
+</html>
