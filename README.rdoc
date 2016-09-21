@@ -9,7 +9,7 @@ Temporary Public URL: http://dry-fortress-86389.herokuapp.com/
     bundle install
 3. Create db and migrate schema
     rake db:migrate
-4. Make necessary updates/changes to source using standarg git commands
+4. Make necessary updates/changes to source using standard git commands
     git add ...
     git commit -m "make it better"
 5. Deploying changes:
@@ -32,4 +32,3 @@ Temporary Public URL: http://dry-fortress-86389.herokuapp.com/
 * Database creation
 
 * Database initialization
-
